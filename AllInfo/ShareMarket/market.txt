@@ -1,30 +1,52 @@
-Share Market Definitions:-
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            *{
+                font-family: 'Kumbh Sans', sans-serif;
+            }
+            body{
+                background-color: rgb(48, 48, 48);
+            }
+            pre{
+                overflow-x: auto;
+                white-space: pre-wrap;
+                white-space: -moz-pre-wrap;
+                white-space: -pre-wrap;
+                white-space: -o-pre-wrap;
+                word-wrap: break-word;
+            }
+        </style>
+        <title>Text editor Backup</title>
+    </head>
+    <body>
+        <pre style="color: white;"><!--------------------------------------------------------><div><b style=""><font size="5">Share Market Definitions:-</font></b><font size="4">
 
-1. CAGR :- Rate per year. 
-Eg. Infy has 10% gain per year
-
-2. P/E ratio :- It shows how expensive share is. Eg infy has 10:1 pe. 
-It means one is paying 100 more than value of share but accenture has 20:1 so it is very
+1. <font color="#fdff70">CAGR</font> :- Rate per year. 
+</font></div><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><div><span style="font-size: large;"> Eg. Infy has 10% gain per year</span></div></blockquote><div><font size="4">
+2. <font color="#fdff70">P/E ratio</font> :- It shows how expensive share is. Eg infy has 10:1 pe. It means one is paying 100 more than value of share but accenture has 20:1 so it is very
 expensive compare to infy means more confident also.
 
-3. Debt to equity ratio :- Company taking debt compare to self value of share. 
-Means if ratio is 2:1 then company has taken 2x loan + 1x self value= total investment. 
-Higher value means if company's returns are not good then it will downfall very badly inshort "RISKY"
+3. <font color="#fdff70">Debt to equity ratio</font> :- company taking debt compare to self value of share. Means if ratio is 2:1 then company has taken 2x loan + 1x self value= total
+investment. Higher value means if company's returns are not good then it will downfall very badly inshort "RISKY"
 
-4. PAT :- Profit after tax. Higher PAT is better obvio.
+4. <font color="#fdff70">PAT</font> :- profit after tax. Higher PAT is better obvio.
 
-5. ROE :- Return on equity. 
-Total profit gain on total assets is ROE. 
-Higher the ROE better is performance.
+5. <font color="#fdff70">ROE</font> :- return on equity. Total profit gain on total assets is ROE. Higher the ROE better is performance.
 
-6. P/B ratio :- The price-to-book ratio compares a company's market value to its book value. 
-The market value of a company is its share price multiplied by the number of outstanding shares. 
-The book value is the net assets of a company. ... Overvalued growth stocks frequently show a combination of low ROE and high P/B ratios
+6. <font color="#fdff70">P/B ratio</font> :- The price-to-book ratio compares a company's market value to its book value. The market value of a company is its share price multiplied by the
+number of outstanding shares. The book value is the net assets of a company. ... Overvalued growth stocks frequently show a combination of low ROE and
+high P/B ratios
 
-7. EPS :- Earning per share ie
-total profit / total no. of shares. 
-Higher eps better performnce
+7. <font color="#fdff70">EPS</font> :- Earning per share ie
+total profit / total no. of shares. Higher eps better performance  
 
 
 All Definitions gathered and combined by
-- Sagar Wankhade
+
+- Sagar Wankhade</font><br></div><!--------------------------------------------------------></pre>
+    </body>
+    </html>

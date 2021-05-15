@@ -1,1 +1,81 @@
-Health info Comming soon...
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            *{
+                font-family: 'Kumbh Sans', sans-serif;
+            }
+            body{
+                background-color: rgb(48, 48, 48);
+            }
+            pre{
+                overflow-x: auto;
+                white-space: pre-wrap;
+                white-space: -moz-pre-wrap;
+                white-space: -pre-wrap;
+                white-space: -o-pre-wrap;
+                word-wrap: break-word;
+            }
+        </style>
+        <title>Text editor Backup</title>
+    </head>
+    <body>
+        <pre style="color: white;"><!--------------------------------------------------------><font size="5"><b>What is a balanced diet? </b></font>
+
+           But what exactly is a balanced diet? In simple words, it’s a diet that offers the nutrients to help your body function properly. The importance of diet lies in the intake of the right amount of calories. Your body gets the right nutrition when you consume a wide variety of food rich in calories such as fresh fruits and vegetables, whole grains, and proteins. 
+
+<b><font color="#fdff70">Calories</font></b>
+
+<span style="font-size: 1.1rem;">           </span>Calories are an indicator of the energy content in the food. Once you intake the food, the calories are consumed when you walk, think, or breathe. On average, a person may require about 2000 calories a day to maintain their body weight. Generally, a person’s calories may depend on their gender, age, and physical activity. Moreover, men need more calories than women. Again, people who are more into exercising require more calories in comparison to people who don’t. It’s also important to remember that the source of calories is equally important as the amount. Stuffing your food with empty calories, i.e. those that don’t contain any nutritional value doesn’t help in any way. Empty calories can be found in foods such as: 
+
+<i>Sugar
+Butter
+Cookies
+Cakes
+Energy drinks
+Ice cream
+Pizza
+Importance of a Balanced Diet</i>
+
+<span style="font-size: 1.1rem;">           </span>Eating a healthy diet is all about feeling great, having more energy, improving your health, and boosting your mood. Good nutrition, physical activity, and healthy body weight are essential parts of a person’s overall health and well-being.
+
+<span style="font-size: 1.1rem;">           </span>There’s no questioning the importance of healthy food in your life. Unless you maintain a proper diet for a healthy body, you may be prone to diseases, infection, or even exhaustion. The importance of nutritious food for children especially needs to be highlighted since otherwise they may end up being prone to several growth and developmental problems. Some of the most common health problems that arise from lack of a balanced diet are heart disease, cancer, stroke, and diabetes. 
+
+<span style="font-size: 1.1rem;">           </span>Being physically active manages many health problems and improves mental health by reducing stress, depression, and pain. Regular exercise helps to prevent metabolic syndrome, stroke, high blood pressure, arthritis, and anxiety.
+
+<b><font color="#fdff70">What falls under a balanced diet? </font>
+</b>
+A balanced diet includes some specific healthy food groups under it: 
+
+<i style="">Vegetables such as leafy greens, starchy vegetables, legumes like beans and peas, red and orange vegetables, and others like eggplant
+Fruits that include whole fruits, fresh or frozen fruits but not canned ones dipped in syrup
+Grains such as whole grains and refined grains. For example, quinoa, oats, brown rice, barley, and buckwheat
+Protein such as lean beef and pork, chicken, fish, beans, peas, and legumes 
+Dairy products such as low-fat milk, yogurt, cottage cheese, and soy milk 
+A wide variety for the selection of food choices should be from each of five food groups in the specific amounts recommended. These food sources from each food group provide a similar amount of key micro and macro-nutrients to meet the body requirements.</i>
+
+<span style="font-size: 1.1rem;">           </span>A balanced diet typically contains 50 to 60 percent carbohydrates, 12 to 20 percent protein, and 30 percent fat. All the organs and tissues need proper nutrition to work effectively by consuming the right amount of nutrients and calories to maintain an ideal weight. The overall health and well-being of a person are dependent on good nutrition, physical exercise, and healthy body weight.
+
+<span style="font-size: 1.1rem;">           </span>A proper meal pattern is a complete combination of food ingredients, food items and quantities required for breakfast, lunch, snack, and dinner for each specific age group. All you need is protein for your muscle mass and blood cells which brings oxygen and nutrients to your muscles.
+
+The body requires quality carbohydrates, lean protein, essential fats and fluids accompanied by regular exercise in maintaining physical health and well-being.
+
+<span style="font-size: 1.1rem;">           </span>These are effective in preventing excess weight gain or in maintaining weight loss but healthier lifestyles are also associated with improved sleep and mood. Physical activity particularly improves brain-related function and outcomes.
+
+<span style="font-size: 1.1rem;">           </span>As with physical activity, making small changes in your diet can go a long way to attain the ideal body weight. Consuming the right kind of carbohydrates is important. Many people rely on the simple carbs found in sweets and processed foods.
+
+<span style="font-size: 1.1rem;">           </span>Fruits and vegetables are rich sources of natural fiber, vitamins, minerals, and other compounds that your body needs to function properly. They’re also low in calories and fat. Unsaturated fats may help reduce inflammation and provide calories.
+
+<font color="#fdff70"><b>The importance of a healthy lifestyle</b></font>
+
+It’s not just a balanced diet that’s enough but also healthy practices of eating. Some of them which you can follow are: 
+
+<b>Eat-in smaller portions</b> – <i>You can do this by eating in small bowls to trick your brain into thinking it to be larger portions.</i> 
+Take time to eat – Not rushing your meals in between other work but taking the time to nourish your meals can send signals to your brain that you’ve had enough food necessary for functioning. 
+Cut down on snacks – Unhealthy snacks are a strict no as they hamper your hunger. Switching to healthy bite-sized food can help. 
+Curb emotional eating – Binge eating can be extremely harmful. Using it to relieve yourself from stress, sadness, or anxiety may affect your health. Instead, you can use healthier alternatives to beat negative emotions. <div><br></div><div><br></div><!--------------------------------------------------------></pre>
+    </body>
+    </html>
