@@ -31,7 +31,9 @@ function readAndDisplay(path){
         return response.text();
     })
     .then(res => {
-        preTag.textContent = res;
+        let splits = res.split('<!-------------------------------------------------------->');
+        console.log(splits[1]);
+        preTag.innerHTML = splits[1];
     });
     popupmenu();
 }
@@ -43,7 +45,9 @@ function readAndDisplayInitialize(path){
         return response.text();
     })
     .then(res => {
-        preTag.textContent = res;
+        let splits = res.split('<!-------------------------------------------------------->');
+        console.log(splits[1]);
+        preTag.innerHTML = splits[1];
     });
 }
 readAndDisplayInitialize("./AllInfo/ShareMarket/market.txt");
