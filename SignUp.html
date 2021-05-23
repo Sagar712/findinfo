@@ -4,13 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
-      crossorigin="anonymous"
-    />
-    <link rel="shortcut icon" href="./Screenshot.png" type="image/x-icon">
     <style>
         *{
             margin: 0;
@@ -21,7 +14,7 @@
         body{
             min-height: 100vh;
             display: flex;
-            justify-content: center;
+            justify-content: space-evenly;
             align-items: center;
             background-color: crimson;
         }
@@ -91,6 +84,9 @@
         }
 
         @media screen and (max-width:930px){
+            body{
+                flex-direction: column;
+            }
             .head{
                 font-size: 1.5rem;
             }
@@ -102,62 +98,26 @@
             p{
                 font-size: 0.9rem;
             }
-            .inpu{
-                margin-top: 0.1rem;
-            }
         }
     </style>
-    <title>Login Page</title>
+    <title>Document</title>
 </head>
 <body>
+    <h1 style="color: white; font-size: 3rem;">Signup here</h1>
+
     <div class="container">
         
-        <form action="./ContentPage.html" onsubmit="callFunc()" class="formcontain">
-            <div class="iconofLogo">
-                <i class="fas fa-shapes"></i>
-            </div>
-            <div class="head">
+        <form action="./" class="formcontain">  
+            <div class="head" >
                 Welcome to <span style="color: crimson;"> Find Info! </span> 
             </div>
-            <input type="text" class="inpu" id="uname" placeholder="Username.." autocomplete="off">
-            <input type="password" class="inpu" id="pass" placeholder="Password..">
-            <input type="submit" value="Log in" class="submi" onclick="callFunc()">
+            <input type="text" class="inpu" id="Name" placeholder=" Full Name" autocomplete="off">
+            <input type="email" class="inpu" id="email" placeholder=" Email Id" autocomplete="off">
+            <input type="text" class="inpu" id="uname" placeholder=" Username" autocomplete="off">
+            <input type="password" class="inpu" id="pass" placeholder=" Password">
+            <input type="submit" value="Sign Up" class="submi">
             <p id="mseg"></p>
         </form>
-        <button class="signup" onclick="location.href='./SignUp.html'"> <u>Sign Up</u> </button>
     </div>
-    <script>
-        const mseg = document.querySelector('#mseg');
-        if(sessionStorage.getItem('AttemptNumber') != null){
-            console.log('attempt no:'+sessionStorage.getItem('AttemptNumber'));
-            mseg.style.color = 'red';
-            if(parseInt(sessionStorage.getItem('AttemptNumber')) >= 3){
-                console.log('seting to 0 from loggin page');
-                document.querySelector('#uname').disabled = true;
-                document.querySelector('#pass').disabled = true;
-                document.querySelector('.submi').disabled = true;
-                sessionStorage.setItem("msg", "Maximum limit of 3 attempts reached!<br> wait for 5 seconds");
-                setTimeout(() => {
-                    document.querySelector('#uname').disabled = false;
-                    document.querySelector('#pass').disabled = false;
-                    document.querySelector('.submi').disabled = false;
-                    mseg.innerHTML = "You can try now";
-                    mseg.style.color = 'green';
-                    sessionStorage.setItem('AttemptNumber', `0`);   
-                }, 5000);
-            }
-        }
-        if(sessionStorage.getItem("msg")!= null){
-                mseg.innerHTML = sessionStorage.getItem('msg');
-        }
-        function callFunc() {
-            const uname = document.querySelector('#uname').value;
-            const pass = document.querySelector('#pass').value;
-            sessionStorage.setItem("uname&pass", uname+"~~"+pass);
-            console.log(uname + " Hello there "+pass);
-            location.href = "./ContentPage.html";
-            mseg.style.color = 'red';
-        }
-    </script>
 </body>
 </html>

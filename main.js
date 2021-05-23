@@ -37,8 +37,18 @@ function readAndDisplay(path){
     });
     popupmenu();
 }
+//<button class="btnn" onclick="readAndDisplay('./AllInfo/ShareMarket/market.txt')">Share Market</button>
 function readAndDisplayInitialize(path){
     const preTag = document.querySelector(".infoHere");
+    const listItems = document.querySelector('#listItems');
+    fetch("./AllInfo/Medical/")
+    .then(res => {
+        return res.text();
+    })
+    .then(res => {
+        console.log(res);
+    })
+
     
     fetch(path)
     .then(response => {
@@ -46,7 +56,6 @@ function readAndDisplayInitialize(path){
     })
     .then(res => {
         let splits = res.split('<!-------------------------------------------------------->');
-        console.log(splits[1]);
         preTag.innerHTML = splits[1];
     });
 }

@@ -23,11 +23,12 @@
         <title>Text editor Backup</title>
     </head>
     <body>
-        <pre style="color: white;"><!--------------------------------------------------------><div><b style=""><font size="5">Share Market Definitions:-</font></b><font size="4">
+        <pre style="color: white;"><!--------------------------------------------------------><pre class="content" style="width: 904.688px; font-size: 17.6px;"><font size="5">Share Market Definitions:-</font><font size="4">
 
 1. <font color="#fdff70">CAGR</font> :- Rate per year. 
-</font></div><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><div><span style="font-size: large;"> Eg. Infy has 10% gain per year</span></div></blockquote><div><font size="4">
-2. <font color="#fdff70">P/E ratio</font> :- It shows how expensive share is. Eg infy has 10:1 pe. It means one is paying 100 more than value of share but accenture has 20:1 so it is very
+ Eg. Infy has 10% gain per year
+
+2.<font color="#fdff70"> P/E ratio</font> :- It shows how expensive share is. Eg infy has 10:1 pe. It means one is paying 100 more than value of share but accenture has 20:1 so it is very
 expensive compare to infy means more confident also.
 
 3. <font color="#fdff70">Debt to equity ratio</font> :- company taking debt compare to self value of share. Means if ratio is 2:1 then company has taken 2x loan + 1x self value= total
@@ -41,12 +42,12 @@ investment. Higher value means if company's returns are not good then it will do
 number of outstanding shares. The book value is the net assets of a company. ... Overvalued growth stocks frequently show a combination of low ROE and
 high P/B ratios
 
-7. <font color="#fdff70">EPS</font> :- Earning per share ie
+7. EPS :- Earning per share ie
 total profit / total no. of shares. Higher eps better performance  
 
 
 All Definitions gathered and combined by
 
-- Sagar Wankhade</font><br></div><!--------------------------------------------------------></pre>
+- Sagar Wankhade</font></pre><!--------------------------------------------------------></pre>
     </body>
     </html>
