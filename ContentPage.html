@@ -22,7 +22,7 @@
           let splitsData = sessionStorage.getItem("uname&pass").split("~~");
           console.log(splitsData);
           if(splitsData[0] != "admin" || splitsData[1] != "sagar123"){
-              sessionStorage.setItem("msg", "Login credentials are not correct.<br>Please try again.");
+              sessionStorage.setItem("msg", "<b>Credentials incorrect.<br>Please try again.</b>");
               //attempt check
               if(sessionStorage.getItem("AttemptNumber")==null){
                   sessionStorage.setItem('AttemptNumber', '1');
@@ -60,9 +60,9 @@
 	</header>
 
 	<div class="menuitems">
-        <button class="btnn" onclick="readAndDisplay('./AllInfo/ShareMarket/market.txt')">Share Market</button>
-        <button class="btnn" onclick="readAndDisplay('./AllInfo/Medical/medics.txt')">Medical definitions</button>
-        <button class="btnn" onclick="readAndDisplay('./AllInfo/Medical/Health.txt')">Health related</button>
+        <button class="btnn" onclick="readAndDisplay('./AllInfo/ShareMarket/market.html')">Share Market</button>
+        <button class="btnn" onclick="readAndDisplay('./AllInfo/Medical/medics.html')">Medical definitions</button>
+        <button class="btnn" onclick="readAndDisplay('./AllInfo/Medical/Health.html')">Health related</button>
 		    <button class="btnn" onclick="window.location = './contact-us/contact.html'">Contact me</button>
     </div>
 	<div class="nextoverlay" onclick="popupmenu()"></div>
@@ -72,13 +72,11 @@
 
 	<div class="allContent" id="allcont">
 		<div class="listItems">
-        <div class="options" onclick="readAndDisplay('./AllInfo/ShareMarket/market.txt')">Share Market</div>
-        <div class="options" onclick="readAndDisplay('./AllInfo/Medical/medics.txt')">Medical definitions</div>
-        <div class="options" onclick="readAndDisplay('./AllInfo/Medical/Health.txt')">Health related</div>
+        <div class="options" onclick="readAndDisplay('./AllInfo/ShareMarket/market.html')">Share Market</div>
+        <div class="options" onclick="readAndDisplay('./AllInfo/Medical/medics.html')">Medical definitions</div>
+        <div class="options" onclick="readAndDisplay('./AllInfo/Medical/Health.html')">Health related</div>
     </div>
-		<div id="content1">
-			<pre class="infoHere"></pre>
-        </div>
+		<div class="infoHere"></div>
 	</div>
 	<script src="./main.js"></script>
   </body>

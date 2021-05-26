@@ -24,42 +24,30 @@ function popupmenu() {
 // heaader till this. Add code next to this.
 
 function readAndDisplay(path){
-    const preTag = document.querySelector(".infoHere");
+    const div = document.querySelector(".infoHere");
     
     fetch(path)
     .then(response => {
         return response.text();
     })
     .then(res => {
-        let splits = res.split('<!-------------------------------------------------------->');
-        console.log(splits[1]);
-        preTag.innerHTML = splits[1];
+        div.innerHTML = res;
     });
     popupmenu();
 }
 //<button class="btnn" onclick="readAndDisplay('./AllInfo/ShareMarket/market.txt')">Share Market</button>
 function readAndDisplayInitialize(path){
-    const preTag = document.querySelector(".infoHere");
-    const listItems = document.querySelector('#listItems');
-    fetch("./AllInfo/Medical/")
-    .then(res => {
-        return res.text();
-    })
-    .then(res => {
-        console.log(res);
-    })
-
+    const div = document.querySelector(".infoHere");
     
     fetch(path)
     .then(response => {
         return response.text();
     })
     .then(res => {
-        let splits = res.split('<!-------------------------------------------------------->');
-        preTag.innerHTML = splits[1];
+        div.innerHTML = res;
     });
 }
-readAndDisplayInitialize("./AllInfo/ShareMarket/market.txt");
+readAndDisplayInitialize("./AllInfo/ShareMarket/market.html");
 
 
 

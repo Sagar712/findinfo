@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="shortcut icon" href="./Screenshot.png" type="image/x-icon">
+    <!--  For reusability style is added in html  -->
     <style>
         *{
             margin: 0;
@@ -141,7 +142,7 @@
                     document.querySelector('#uname').disabled = false;
                     document.querySelector('#pass').disabled = false;
                     document.querySelector('.submi').disabled = false;
-                    mseg.innerHTML = "You can try now";
+                    mseg.innerHTML = "<b>You can try now</b>";
                     mseg.style.color = 'green';
                     sessionStorage.setItem('AttemptNumber', `0`);   
                 }, 5000);
@@ -154,7 +155,6 @@
             const uname = document.querySelector('#uname').value;
             const pass = document.querySelector('#pass').value;
             sessionStorage.setItem("uname&pass", uname+"~~"+pass);
-            console.log(uname + " Hello there "+pass);
             location.href = "./ContentPage.html";
             mseg.style.color = 'red';
         }
