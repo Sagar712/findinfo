@@ -24,17 +24,22 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: crimson;
+            /*background-color: crimson;*/
+            background-image: url('./732923.jpg');
+            background-position: center;
+            background-size: cover;
         }
 
         .head{
             font-size: 1.5rem;
             margin-bottom: 2rem;
+            color: white;
         }
         .iconofLogo{
             font-size: 3.5rem;
             margin-bottom: 1rem;
             font-weight: bold;
+            color: white;
         }
         .container{
             display: flex;
@@ -43,17 +48,16 @@
             align-items: center;
             padding: 5rem 3rem;
             border-radius: 8px;
-            box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.342);
-            background-color: white;
+            /*box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.466);*/
+            background-color: rgba(0, 0, 0, 0.342);
+            backdrop-filter: blur(3px);
         }
         .formcontain{
             display: flex;
             flex-direction: column;
             align-items: center;
         }
-        .container:hover{
-            box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.562);
-        }
+        
 
         .inpu{
             height: 1.9rem;
@@ -81,16 +85,20 @@
         }
         .signup{
             height: 2.2rem;
+            width: 5rem;
             font-size: 1rem;
             margin-top: 2rem;
             cursor: pointer;
-            color: crimson;
-            border: none;
+            color: white;
+            border: 2px solid white;
+            border-radius: 4px;
             background-color: transparent;
             font-weight: bold;
             -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
         }
-
+        .signup:active{
+            transform: scale(0.94);
+        }
         @media screen and (max-width:930px){
             .head{
                 font-size: 1.5rem;
@@ -98,7 +106,6 @@
             .container{
                 padding: 4rem 3rem;
                 width: 94vw;
-                box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.562);
             }
             p{
                 font-size: 0.9rem;
@@ -118,14 +125,14 @@
                 <i class="fas fa-shapes"></i>
             </div>
             <div class="head">
-                Welcome to <span style="color: crimson;"> Find Info! </span> 
+                Welcome to <span style="color: rgb(255, 52, 93); font-weight: bold;"> Find Info! </span> 
             </div>
             <input type="text" class="inpu" id="uname" placeholder="Username.." autocomplete="off">
             <input type="password" class="inpu" id="pass" placeholder="Password..">
             <input type="submit" value="Log in" class="submi" onclick="callFunc()">
             <p id="mseg"></p>
         </form>
-        <button class="signup" onclick="location.href='./SignUp.html'"> <u>Sign Up</u> </button>
+        <button class="signup" onclick="location.href='./SignUp.html'"> Sign Up </button>
     </div>
     <script>
         const mseg = document.querySelector('#mseg');
